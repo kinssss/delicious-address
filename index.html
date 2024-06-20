@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Вкусный Адрес</title>
+</head>
+<body>
+
+  <!-- шапка -->
+
+  <div class="parallax">
+    <p class="logo">ВКУСНЫЙ АДРЕС</p>
+    <p class="bg-text">Освежите свой рацион и попробуйте уникальные продукты<br> из разных уголков мира, заказав их прямо сейчас!</p>
+    <button class="button" style="vertical-align:middle; "><span>Заказать </span></button>
+  </div>
+
+  <!-- акции -->
+
+  <p class="zagolovok">АКЦИИ</p>
+
+  <div class="promo">
+    <img src="img/cherry.png" class="promo-img">
+    <img src="img/fructs.png" class="promo-img">
+    <img src="img/price.png" class="promo-img">
+  </div>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="img/cherry.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="img/price.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="img/fructs.png" style="width:100%">
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+  
+  <!-- товары из других стран -->
+
+  <p class="zagolovok">ТОВАРЫ ИЗ ДРУГИХ СТРАН</p>
+
+  <p class="zagolovok2">Фрукты и овощи</p>
+
+  <div class='tovar-group'>
+    <div class='tovar'>
+      <img src='img/banana.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Эквадора: Бананы</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/banana.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Бананы <span style="color: #9c9c9c; font-size: 20px;">4 шт.</span></p>
+               <hr>
+               <p class="popup-text">Бананы яркого жёлтого цвета с нежной сладкой мякотью. Очень ароматные. Можно есть просто так, добавлять в смузи, десерты и фруктовые салаты.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">1 месяц</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от +5°C до +6°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+
+    <div class='tovar'>
+      <img src='img/apple-pink.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Азербайджана: Яблоки Пинк Леди</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/apple-pink.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Яблоки Пинк Леди <span style="color: #9c9c9c; font-size: 20px;">500 г</span></p>
+               <hr>
+               <p class="popup-text">Яблоки из Азербайджана. У фруктов яркая кожура: от светло-розового до красного цвета. Мякоть — хрустящая, сочная и сладкая. Во вкусе ощущаются ноты лесных ягод и ванили.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">2 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от +2°С до +3°С</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    
+    <div class='tovar'>
+      <img src='img/apple-green.jpeg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Азербайджана: Яблоки Гренни Смит</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/apple-green.jpeg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Яблоки Гренни Смит <span style="color: #9c9c9c; font-size: 20px;">500 г</span></p>
+               <hr>
+               <p class="popup-text">Эти яблоки мы привозим из Азербайджана. У фруктов ярко-зелёная кожура и хрустящая мякоть с освежающей кислинкой. Можно есть просто так, добавлять в смузи, салаты, десерты и выпечку.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">2 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от +4°С до +6°С</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/apelsine.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Египта: Апельсины отборные</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/apelsine.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Апельсины отборные <span style="color: #9c9c9c; font-size: 20px;">2 шт.</span></p>
+               <hr>
+               <p class="popup-text">Апельсины из Египта. Имеют кожуру ярко-оранжевого цвета, иногда с красными прожилками. Мякоть — яркая, сочная и сладкая. Фрукты богаты витамином С и клетчаткой. Можно есть просто так, добавлять в смузи, десерты и салаты.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">21 день</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от +2°С до +5°С</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/apple-pink.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Азербайджана: Яблоки Пинк Леди</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/apple-pink.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Яблоки Пинк Леди <span style="color: #9c9c9c; font-size: 20px;">500 г</span></p>
+               <hr>
+               <p class="popup-text">Яблоки из Азербайджана. У фруктов яркая кожура: от светло-розового до красного цвета. Мякоть — хрустящая, сочная и сладкая. Во вкусе ощущаются ноты лесных ягод и ванили.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">2 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от +2°С до +3°С</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/red-banana.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Эквадора: Красные бананы</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/red-banana.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Красные бананы <span style="color: #9c9c9c; font-size: 20px;">4 шт.</span></p>
+               <hr>
+               <p class="popup-text">Красные бананы из Эквадора. Сочные и сладкие. Имеют яркий аромат с нотками малины и клубники. Можно есть просто так, добавлять в смузи, фруктовые салаты, мороженое и десерты.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">21 день</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от +12°С до +14°С</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/mandarine.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из ЮАР: Мандарины</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/mandarine.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Мандарины <span style="color: #9c9c9c; font-size: 20px;">500 г</span></p>
+               <hr>
+               <p class="popup-text">Мандарины шарообразной формы с гладкой кожурой оранжевого цвета. Внутри — сочная сладкая мякоть с умеренной кислинкой, в которой могут попадаться косточки. Легко чистятся.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">21 день</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от +4°С до +6°С</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+  </div>
+
+  <p class="zagolovok2">Напитки</p>
+
+  <div class='tovar-group'>
+    <div class='tovar'>
+      <img src='img/yan-banana.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Армении: Банановый сок Yan, без сахара</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/yan-banana.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Банановый сок Yan, без сахара <span style="color: #9c9c9c; font-size: 20px;">0,93 л</span></p>
+               <hr>
+               <p class="popup-text">Натуральный сок из спелых бананов. В составе нет сахара и искусственных добавок: ароматизаторов, красителей и консервантов.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">24 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +25°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/yan-mango2.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Армении: Манговый сок Yan, без сахара</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/yan-mango2.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Яблоки Пинк Леди <span style="color: #9c9c9c; font-size: 20px;">0,93 л</span></p>
+               <hr>
+               <p class="popup-text">Натуральный сок из спелых манго. В составе нет сахара и искусственных добавок: ароматизаторов, красителей и консервантов.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">24 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +25°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/yan-orange.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Армении: Апельсиновый сок Yan, без сахара</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/yan-orange.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Апельсиновый сок Yan, без сахара <span style="color: #9c9c9c; font-size: 20px;">0,93 л</span></p>
+               <hr>
+               <p class="popup-text">Натуральный сок из отборных апельсинов. В составе нет сахара и искусственных добавок: ароматизаторов, красителей и консервантов.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">24 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +25°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/yan-tomato.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Армении: Томатный сок Yan</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/yan-tomato.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Томатный сок Yan <span style="color: #9c9c9c; font-size: 20px;">0,93 л</span></p>
+               <hr>
+               <p class="popup-text">Натуральный сок из отборных томатов. В составе нет искусственных добавок: ароматизаторов, красителей и консервантов.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">24 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +25°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/villa-dinni-orange.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Беларуси: Апельсиновый сок Villa Dini</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/villa-dinni-orange.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Апельсиновый сок Villa Dini <span style="color: #9c9c9c; font-size: 20px;">1 л</span></p>
+               <hr>
+               <p class="popup-text">Сок апельсиновый. Без добавления сахара. Содержит сахара природного естественного происхождения. Изготовлен из концентрированного сока</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">18 месяцев</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +25°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/villa-dinni-cherry.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Беларуси: Вишнёвый нектар Villa Dini</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/villa-dinni-cherry.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Вишнёвый нектар Villa Dini <span style="color: #9c9c9c; font-size: 20px;">1 л</span></p>
+               <hr>
+               <p class="popup-text">Cок вишнёвый, сахар, регулятор кислотности лимонная кислота, вода питьевая. Изготовлен из концентрированного сока</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">18 месяцев</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +25°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/villa-dinni-grapefruit.jpg' class="img-tovar"> 
+      <a id="detailsabout" class="learn-more">Из Беларуси: Грейпфрутовый сок Villa Dini</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/villa-dinni-grapefruit.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Грейпфрутовый сок Villa Dini <span style="color: #9c9c9c; font-size: 20px;">1 л</span></p>
+               <hr>
+               <p class="popup-text">Натуральный грейпфрутовый сок без добавления сахара. Имеет пикантный вкус с лёгкой горчинкой. Ещё вкуснее, если пить охлаждённым.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">18 месяцев</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +25°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+  </div>
+
+  <p class="zagolovok2">Макароны и крупы</p>
+
+  <div class='tovar-group'>
+    <div class='tovar'>
+      <img src='img/spagetti.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Италии: Спагетти Romeo Rossi Spaghetti</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/spagetti.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Спагетти Romeo Rossi Spaghetti <span style="color: #9c9c9c; font-size: 20px;">500 г</span></p>
+               <hr>
+               <p class="popup-text">Сделана из твёрдых сортов пшеницы, в ней много клейковины, мало крахмала и ниже гликемический индекс. Это значит, что она дольше усваивается организмом и вы реже хотите есть.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">37 месяцев</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +30°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/rigate.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Италии: Паста Romeo Rossi Penne Rigate пенне ригате</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/rigate.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Паста Romeo Rossi Penne Rigate пенне ригате <span style="color: #9c9c9c; font-size: 20px;">500 г</span></p>
+               <hr>
+               <p class="popup-text">Итальянская паста из твёрдых сортов пшеницы в форме перьев. Чистый состав — только мука и вода. Благодаря своей форме и ребристой поверхности перья зачёрпывают соус и удерживают его внутри. Варите 12 минут.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">36 месяцев</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +30°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/farfalle.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Италии: Паста Romeo Rossi Farfalle фарфалле</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/farfalle.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Паста Romeo Rossi Farfalle фарфалле <span style="color: #9c9c9c; font-size: 20px;">500 г</span></p>
+               <hr>
+               <p class="popup-text">Сделана из твёрдых сортов пшеницы, в ней много клейковины, мало крахмала и ниже гликемический индекс. Это значит, что она дольше усваивается организмом и вы реже хотите есть.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">37 месяцев</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +30°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/fettuchine.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Италии: Паста Romeo Rossi Fettuccine фетучини, яичные</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/fettuchine.jpg" id="openitemimg">
+            <div style="margin: 0.5rem;">
+               <p class="popup-bigtext">Паста Romeo Rossi Fettuccine фетучини, яичные <span style="color: #9c9c9c; font-size: 20px;">250 г</span></p>
+               <hr>
+               <p class="popup-text">Яичная паста приготовлена из муки твёрдых сортов пшеницы и фермерских яиц. Паста обрабатывается согласно итальянской традиции и сушится так, чтобы сохранить вкус, цвет и аромат продукта.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">24 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +30°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/fettucchine2.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Италии: Паста Romeo Rossi Fettuccine фетучини, яичные, двухцветные</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/fettucchine2.jpg" id="openitemimg">
+            <div style="margin: 1rem;">
+               <p class="popup-bigtext">Паста Romeo Rossi Fettuccine фетучини <span style="color: #9c9c9c; font-size: 20px;">250 г</span></p>
+               <hr>
+               <p class="popup-text">Приготовлена по итальянским рецептам: мука из твёрдых сортов пшеницы, фермерские яйца, бронзовые формы и медленная сушка при низкой температуре. Всё это придаёт пасте яркий вкус и шероховатость.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">24 месяца</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°C до +30°C</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+    <div class='tovar'>
+      <img src='img/armando.jpg' class="img-tovar">
+      <a id="detailsabout" class="learn-more">Из Италии: Макароны Armando, рожки</a>
+      <div class="popup">
+        <div class="popup-content">
+            <img src="img/armando.jpg" id="openitemimg">
+            <div style="margin: 1rem;">
+               <p class="popup-bigtext">Макароны Armando, рожки <span style="color: #9c9c9c; font-size: 20px;">500 г</span></p>
+               <hr>
+               <p class="popup-text">Итальянские макароны из твёрдых сортов пшеницы в форме рожков. Благодаря своей форме макароны зачёрпывают и удерживают соус. Варите 20 минут.</p>
+               <P class="popup-zag">Срок хранения</P>
+               <p class="popup-text">37 месяцев</p>
+               <p class="popup-zag">Условия хранения</p>
+               <p class="popup-text">При температуре от 0°С до +25°С</p>
+              </div> 
+        </div>   
+      </div>
+    </div>
+  </div>
+
+  <p class="zagolovok2">Кофе и какао</p>
+
+  <div class="group">
+    <div class='tovar-group'>
+      <div class='tovar'>
+        <img src='img/crema.jpg' class="img-tovar">
+        <p>Из Италии: Кофе в зёрнах Romeo Rossi, Crema</p>
+      </div>
+      <div class='tovar'>
+        <img src='img/classika.jpg' class="img-tovar">
+        <p>Из Италии: Кофе в зёрнах Romeo Rossi, Classica, жареный</p>
+      </div>
+      <div class='tovar'>
+        <img src='img/crema2.jpg' class="img-tovar">
+        <p>Из Италии: Молотый кофе Romeo Rossi, Crema</p>
+      </div>
+      <div class='tovar'>
+        <img src='img/efendy.jpg' class="img-tovar">
+        <p>Из Турции: Молотый кофе Efendy, средняя обжарка</p>
+      </div>
+      <div class='tovar'>
+        <img src='img/shazel.jpg' class="img-tovar">
+        <p>Из Турции: Растворимый кофе Shazel, шоколад и мята</p>
+      </div>
+      <div class='tovar'>
+        <img src='img/napoli.jpg' class="img-tovar">
+        <p>Кофе в капсулах Epsilonpresso, Napoli</p>
+      </div>
+      <div class='tovar'>
+        <img src='img/lungo.jpg' class="img-tovar">
+        <p>Кофе в капсулах Epsilonpresso, Lungo</p>
+      </div>
+    </div>
+  </div>
+
+
+  <p class="zagolovok2">Сладкое</p>
+
+  <div class='tovar-group'>
+    <div class='tovar'>
+      <img src='img/chocolas.jpg' class="img-tovar">
+      <p>Из Бельгии: Чипсы 24 Chocola’s молочный шоколад, с морской солью</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/break-milk.jpg' class="img-tovar">
+      <p>Из Греции: Шоколад ION Break молочный</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/break-hazelnuts.jpg' class="img-tovar">
+      <p>Из Греции: Шоколад ION Break молочный, с цельными лесными орехами</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/break-almonds.jpg' class="img-tovar">
+      <p>Из Греции: Шоколад ION Break молочный, с цельным миндалём</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/break-dark-hazelnuts.jpg' class="img-tovar">
+      <p>Из Греции: Тёмный шоколад ION Break, с цельными лесными орехами</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/break-white.jpg' class="img-tovar">
+      <p>Из Греции: Шоколад ION Break белый, с изюмом и орехами</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/albeni-bites.jpg' class="img-tovar">
+      <p>Из Казахстана: Печенье Ülker Albeni Bites с карамелью, с крошками печенья </p>
+    </div>
+    <div class='tovar'>
+      <img src='img/albeni-chocolate.jpg' class="img-tovar">
+      <p>Из Казахстана: Молочный шоколад Ülker, Albeni, с карамельным кремом</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/albeni-chocolate-hazelnuts.jpg' class="img-tovar">
+      <p>Из Казахстана: Молочный шоколад Ülker, Albeni, с фундучным кремом</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/dr-gerard-rolls.jpg' class="img-tovar">
+      <p>Из Польши: Вафельные трубочки Dr Gerard, с какао и сливочным кремом</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/dr-gerard-cake.jpg' class="img-tovar">
+      <p>Из Польши: Печенье-мини Dr Gerard, с вишней</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/dr-gerard-moll.jpg' class="img-tovar">
+      <p>Из Польши: Вафли Dr Gerard C-moll в шоколадной глазури</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/makarena.jpg' class="img-tovar">
+      <p>Из Польши: Тёмный шоколад Pomorzanka, с изюмом и арахисом</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/nelino-strawberry.jpg' class="img-tovar">
+      <p>Из Сербии: Шоколад Nelino Kids, молочный, с клубникой</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/nelino-milk.jpg' class="img-tovar">
+      <p>Из Сербии: Молочный шоколад Nelino Kids, с молочным наполнителем</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/nelino-black-cookie.jpg' class="img-tovar">
+      <p>Из Сербии: Шоколад Nelino Kids молочный, с печеньем</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/nelino-sport-strawberry.jpg' class="img-tovar">
+      <p>Из Сербии: Шоколад Nelina Maxxx клубника и чизкейк</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/nelino-sport-choco.jpg' class="img-tovar">
+      <p>Из Сербии: Шоколад Nelina Maxxx шоколад и вафля</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/nelino-excellence-milk.jpg' class="img-tovar">
+      <p>Из Сербии: Молочный шоколад Nelina Excellence</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/nelino-excellence-white.jpg' class="img-tovar">
+      <p>Из Сербии: Шоколад Nelina Excellence белый</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/coconut.jpg' class="img-tovar">
+      <p>Из Таиланда: Кокосовая сгущёнка Khob Khun Siam, 10-12%</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/breaklez.jpg' class="img-tovar">
+      <p>Из Турции: Шоколадные вафли Jouy & Co Breakiez</p>
+    </div>
+    <div class='tovar'>
+      <img src='img/nicezz.jpg' class="img-tovar">
+      <p>Из Турции: Вафельный рожок Jouy & Co N'icezz</p>
+    </div>
+
+  </div>
+
+  <!-- таймлайн -->
+
+  <p class="zagolovok">ИСТОРИЯ СЕТИ МАГАЗИНОВ ВКУСНЫЙ АДРЕС</p>
+
+  <div class="timeline" style="padding-top: 2rem;">
+    <div class="container left">
+      <div class="content">
+        <h2>2018</h2>
+        <p>Поиск первых поставщиков, подходящих площадей.</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>2019</h2>
+        <p>Открытие первого магазина и первые постоянные покупатели!</p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2>2021</h2>
+        <p>Расширение сети магазинов, открытие второго магазина и активная подготовка к открытию третьего.</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="popup-text2">«Вкусный адрес» – это сеть продуктовых магазинов формата «у дома». Магазины современного формата, расположенные в шаговой доступности от дома. Мы ценим наших покупателей, поэтому экономим не только ваши деньги, но и время. Удобство расположения товарных категорий позволит вам экономить время для главного. Все быстро, просто, а главное рядом с домом!</p>
+
+  <!-- где нас найти -->
+
+  <p class="zagolovok">ГДЕ НАС НАЙТИ</p>
+
+  <div class="map">
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac1898926cd8e45bcf575ed1230865df17c418b02b4c3ca7ea6090e76a81f3203&amp;source=constructor" width="80%" height="411" frameborder="0"></iframe>  
+  </div>
+
+  <div style="display: flex; justify-content: center; padding: 1rem 1rem;">
+      <p style="font-size: 18px; line-height: 1.7;"><b>1.</b> г. Пермь, ул. Рязанская, д. 13 - МКР Новые Ераничи | Часы работы: <span style="color: #00DC30;"><b>круглосуточно</b></span><br>
+      <b>2.</b> г. Пермь, ул. Александра Турчевича, д. 8 - ЖК Арсенал | Часы работы: <span style="color: #00DC30;"><b>8:00 - 22:00</b></span></p>
+  </div>
+  
+
+  <!-- вопросы и ответы -->
+
+  <p class="zagolovok">ВОПРОСЫ И ОТВЕТЫ</p>
+
+  <div style="padding: 0 1rem; padding-bottom: 1.5rem;">
+      <button class="accordion">Как хранится заказ до момента получения?</button>
+      <div class="panel">
+          <p class="vopros-text">Заказ хранится на складе супермаркета в температурных зонах, которые требуют продукты, заказанные в приложении. Один и тот же заказ может храниться в разных температурных зонах.</p>
+      </div>
+
+      <button class="accordion">Через какое время после оформления можно забрать заказ?</button>
+      <div class="panel">
+          <p class="vopros-text">Вы можете оформить заказ на текущую дату. Как только он будет готов к выдаче, вам придет уведомление.</p>
+      </div>
+
+      <button class="accordion">Меня не устроило качество товара в заказе</button>
+      <div class="panel">
+          <p class="vopros-text">Возврат продуктов надлежащего качества невозможен. В случае, если у вас есть нарекания к качеству, срокам, комплектации заказа и прочее, направьте в чате приложения фото, по которому можно проверить товар. Мы обязательно поможем.</p>
+      </div>
+
+      <button class="accordion">Мне выдали не тот товар или не выдали вообще. Что делать?</button>
+      <div class="panel">
+          <p class="vopros-text">Опишите, пожалуйста, ситуацию сотруднику магазина. Если вы уже дома, позвоните нам. Обязательно разберемся.</p>
+      </div>
+
+      <button class="accordion">Какие есть способы оплаты заказа?</button>
+      <div class="panel">
+          <p class="vopros-text">Оплатить товары можно банковской картой или SberPay. Если в заказе самовывоза есть алкогольная или табачная продукция, то заказ полностью оплачивается на кассе магазина.</p>
+      </div> 
+  </div>
+
+  <!-- связь с нами -->
+
+  <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="padding-top: 10rem;">Не нашли ответ на свой вопрос?</h1>
+        <p>Свяжитесь с нами, мы обязательно поможем!</p>
+        <div style="padding-bottom: 10rem;">
+          <a href=”tel:+79526553102”><button>Позвонить</button></a>
+        </div>
+      </div>
+  </div>
+
+  <!-- подвал -->
+
+    <div class="podval" style="padding-bottom: 5rem;">
+      <div style="margin-right: 10rem">
+        <p class="tag1"><b>ИНФОРМАЦИЯ</b></p>
+        <a class="category">ИП Гасымов Рауф Зияддин оглы</a>
+        <a class="category">ИНН 590422096051</a>
+        <a class="category">ОГРНИП 316595800157954</a>
+        <a class="category">Пермь, ул. Рязанская, д. 13</a>
+      </div>
+
+      <div style="margin-right: 10rem">
+        <p class="tag1"><b>КОНТАКТЫ</b></p>
+        <a href="https://vk.com/kinssss"><img src="img/vk.png" class="icons"></a>
+        <img src="img/telegram.png" class="icons" href="#">
+        <div class="line2">
+          <hr/>
+        </div>
+        <a class="category">г. Пермь, ул. Рязанская, д. 13</a>
+        <a class="category">Телефон: +79082712973</a>
+      </div>
+
+      <div>
+        <p class="tag1"><b>СКИДКИ И АКЦИИ</b></p>
+        <a class="category">Хочу быть в курсе акций и новинок</a>
+        <div style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 1rem; margin-top: 1rem;">
+          <input type=" email" id="email" name="email" placeholder="Мой e-mail">
+          <input type="submit" value="Подписаться">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // слайдер для акции
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active1", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active1";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    // вопросы и ответы
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+    
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+
+    // модальное окно для каталога
+    const learnMoreButtons = document.querySelectorAll('.learn-more');
+    const popups = document.querySelectorAll('.popup');
+    const closeButtons = document.querySelectorAll('.close-btn #close');
+
+    learnMoreButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            popups[index].classList.add('open');
+        });
+    });
+
+    closeButtons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            popups[index].classList.remove('open');
+        });
+    });
+
+    popups.forEach(popup => {
+        popup.addEventListener('click', (event) => {
+            if (event.target === popup) {
+                popup.classList.remove('open');
+            }
+        });
+    });
+  </script>
+</body>
+</html>
